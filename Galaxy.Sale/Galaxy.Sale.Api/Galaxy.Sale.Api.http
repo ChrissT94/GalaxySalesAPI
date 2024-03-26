@@ -1,0 +1,9 @@
+@Galaxy.Sale.Api_HostAddress = http://localhost:5160
+@Urltest = https://api.publicapis.org/entries
+
+GET {{Galaxy.Sale.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+// Para probar el api dar en Enviar Solicitud
+GET {{Urltest}}
